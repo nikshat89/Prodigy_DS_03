@@ -1,58 +1,46 @@
-🧠 Decision Tree Classifier: Bank Marketing Campaign
-📌 Overview
-This project uses a Decision Tree Classifier to predict whether a customer will subscribe to a term deposit based on their demographic and behavioral data. The model is trained and tested on the Bank Marketing Dataset from the UCI Machine Learning Repository.
+# 🧠 Decision Tree Classifier: Bank Marketing Campaign
 
-📂 Dataset
-Source: Bank Marketing Data Set – UCI ML Repository
+## 📌 Overview
 
-Format: CSV (semicolon-separated)
+This project builds a **Decision Tree Classifier** to predict whether a customer will **subscribe to a term deposit** based on demographic and behavioral data. The model is trained on the **Bank Marketing Dataset** from the UCI Machine Learning Repository.
 
-Description: Contains 45,211 records and 17 attributes related to customer data, call outcomes, and subscription status.
+---
 
-🔍 Objective
-Preprocess and encode categorical data.
+## 📂 Dataset
 
-Train a Decision Tree Classifier on customer features.
+- **Source**: [Bank Marketing Dataset – UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
+- **Format**: CSV (`bank.csv` with semicolon delimiter)
+- **Description**: Contains 45,211 customer records with features like job, education, contact method, previous campaign outcome, and more.
 
-Evaluate performance using accuracy, classification report, and confusion matrix.
+---
 
-Visualize the decision tree and results.
+## 🔍 Objective
 
-📊 Features
-Demographic: age, job, marital status, education
+- Encode categorical data
+- Train a **Decision Tree Classifier**
+- Evaluate with metrics: accuracy, confusion matrix, classification report
+- Visualize the tree structure for interpretation
 
-Financial: default, housing loan, personal loan
+---
 
-Call Information: contact method, duration, campaign details
+## 📊 Features Used
 
-Outcome: previous marketing outcome, subscription (y)
+- **Demographics**: age, job, marital, education
+- **Finance**: default status, housing/personal loan
+- **Call Information**: contact method, last call duration, number of contacts
+- **Marketing Outcome**: outcome of previous campaigns
+- **Target Variable**: `y` (subscribed: yes/no)
 
-🛠️ Tools & Libraries
-pandas – data manipulation
+---
 
-numpy – numerical operations
+## 🛠️ Tools & Libraries
 
-seaborn & matplotlib – data visualization
+- `pandas` – data manipulation  
+- `numpy` – numerical operations  
+- `seaborn`, `matplotlib` – visualizations  
+- `scikit-learn` – model training, evaluation, encoding
 
-scikit-learn – model training, encoding, evaluation
-
-📈 Output-
-✔️ Model Accuracy
-📄 Classification Report (Precision, Recall, F1-score)
-📉 Confusion Matrix Heatmap
-🌳 Decision Tree Visualization
-
-🔍 Sample Results
-Accuracy: ~88% (varies depending on tree depth)
-
-Top Features: duration, contact, month, poutcome
-
-📌 Visualization Preview
-
-🧠 Insights
-Decision Trees offer interpretable results and visual flow of decision logic.
-
-duration and contact type have significant impact on subscription decisions.
-
-The model can be improved with pruning, ensemble methods, or cross-validation.
-
+---
+"C:\Users\Nikshat Sharma\OneDrive\Desktop\prodigy infotech internship\task 3\Screenshot 2025-06-26 225835.png"
+"C:\Users\Nikshat Sharma\OneDrive\Desktop\prodigy infotech internship\task 3\Screenshot 2025-06-26 225912.png"
+  
