@@ -41,6 +41,6 @@ This project builds a **Decision Tree Classifier** to predict whether a customer
 - `scikit-learn` – model training, evaluation, encoding
 
 ---
-"C:\Users\Nikshat Sharma\OneDrive\Desktop\prodigy infotech internship\task 3\Screenshot 2025-06-26 225835.png"
-"C:\Users\Nikshat Sharma\OneDrive\Desktop\prodigy infotech internship\task 3\Screenshot 2025-06-26 225912.png"
+"Screenshot 2025-06-26 225835.png"
+"Screenshot 2025-06-26 225912.png"
   
