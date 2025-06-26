@@ -41,8 +41,12 @@ This project builds a **Decision Tree Classifier** to predict whether a customer
 - `scikit-learn` – model training, evaluation, encoding
 
 ---
-<img src="https://user-images.githubusercontent.com/Screenshot 2025-06-26 225835.png" width="400"/>
-🌳 Decision Tree
-<img src="https://user-images.githubusercontent.com/Screenshot 2025-06-26 225912.png" width="700"/>
+## 🌳 Decision Tree Visualization
+
+![Decision Tree](images/tree_plot.png)
+
+## 📉 Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
 
   
