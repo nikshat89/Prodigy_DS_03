@@ -40,7 +40,14 @@ This project builds a **Decision Tree Classifier** to predict whether a customer
 - `seaborn`, `matplotlib` – visualizations  
 - `scikit-learn` – model training, evaluation, encoding
 
---
+---
+## 🌳 Decision Tree Visualization
+
+![Decision Tree](images/tree_plot.png)
+
+## 📉 Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
 
 
   
