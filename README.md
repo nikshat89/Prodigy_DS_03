@@ -43,11 +43,11 @@ This project builds a **Decision Tree Classifier** to predict whether a customer
 ---
 ## 🌳 Decision Tree Visualization
 
-![Decision Tree](images/tree_plot.png)
+![Decision Tree](tree_plot.png)
 
 ## 📉 Confusion Matrix
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 
   
